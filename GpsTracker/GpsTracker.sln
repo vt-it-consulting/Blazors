@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GpsTracker.SharedUI", "GpsTracker\SharedUI\GpsTracker.SharedUI.csproj", "{836D0B88-3D6E-4FE1-A4E0-670FB747F2ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GpsTracker.Shared", "GpsTracker\Shared\GpsTracker.Shared.csproj", "{F1361C65-C429-4759-80A1-9E93F279560D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GpsTracker.Api", "GpsTracker\Api\GpsTracker.Api.csproj", "{75967E3B-9CA2-4D8D-999C-91A6490933DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GpsTracker.Client", "GpsTracker\Client\GpsTracker.Client.csproj", "{346980A2-856A-4832-8E9C-C343D02D950F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GpsTracker.Components", "GpsTracker\Components\GpsTracker.Components.csproj", "{DDE452C4-EF22-48DA-8F28-6087E2A87573}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GpsTracker.Server", "GpsTracker\Server\GpsTracker.Server.csproj", "{8E3F3793-28DA-4F82-990A-80145C7E1305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{836D0B88-3D6E-4FE1-A4E0-670FB747F2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836D0B88-3D6E-4FE1-A4E0-670FB747F2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836D0B88-3D6E-4FE1-A4E0-670FB747F2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836D0B88-3D6E-4FE1-A4E0-670FB747F2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1361C65-C429-4759-80A1-9E93F279560D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1361C65-C429-4759-80A1-9E93F279560D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1361C65-C429-4759-80A1-9E93F279560D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1361C65-C429-4759-80A1-9E93F279560D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75967E3B-9CA2-4D8D-999C-91A6490933DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75967E3B-9CA2-4D8D-999C-91A6490933DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75967E3B-9CA2-4D8D-999C-91A6490933DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75967E3B-9CA2-4D8D-999C-91A6490933DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346980A2-856A-4832-8E9C-C343D02D950F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346980A2-856A-4832-8E9C-C343D02D950F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346980A2-856A-4832-8E9C-C343D02D950F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346980A2-856A-4832-8E9C-C343D02D950F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE452C4-EF22-48DA-8F28-6087E2A87573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE452C4-EF22-48DA-8F28-6087E2A87573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE452C4-EF22-48DA-8F28-6087E2A87573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE452C4-EF22-48DA-8F28-6087E2A87573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3F3793-28DA-4F82-990A-80145C7E1305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3F3793-28DA-4F82-990A-80145C7E1305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3F3793-28DA-4F82-990A-80145C7E1305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3F3793-28DA-4F82-990A-80145C7E1305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {151A4278-3062-4BC6-8C25-C395AEEA7EF2}
+	EndGlobalSection
+EndGlobal
