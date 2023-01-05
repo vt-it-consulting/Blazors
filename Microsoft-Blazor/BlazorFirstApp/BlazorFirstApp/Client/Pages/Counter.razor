@@ -1,0 +1,72 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+
+<p>Current count: <span class="@BackgroundColor">@currentCount</span></p>
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+
+<div>
+    <input type="number" @bind="@currentCount" @bind:event="oninput" />
+</div>
+
+<div>
+    <p>
+        <input type="number"
+               @bind="@currentCount"
+               @onkeypress="KeyHandler" />
+    </p>
+</div>
+
+<p>
+    <input @bind="@Today" @bind:format="yyyy-MM-dd" />
+</p>
+
+<button class="btn btn-primary"
+        disabled="@(currentCount > 10)"
+        @onclick="IncrementCount">
+    Click me
+</button>
+
+
+@code {
+    private DateTime Today { get; set; } = DateTime.Now;
+
+    private int currentCount = 0;
+    private int increment = 0;
+
+    //private void IncrementCount()
+    //{
+    //    currentCount++;
+    //}
+    private string BackgroundColor => (currentCount % 2 == 0) ? "red-background" : "yellow-background";
+
+    private void IncrementCount(MouseEventArgs e)
+    {
+        if (e.CtrlKey)
+        {
+            currentCount--;
+        }
+        else
+        {
+            currentCount++;
+        }
+    }
+
+    private void KeyHandler(KeyboardEventArgs e)
+    {
+        if (e.Key == "+")
+        {
+            increment += 1;
+        }
+        else if (e.Key == "-")
+        {
+            increment -= 1;
+        }
+    }
+
+
+}
